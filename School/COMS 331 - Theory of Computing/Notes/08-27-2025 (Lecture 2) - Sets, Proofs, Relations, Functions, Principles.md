@@ -57,7 +57,6 @@ Check each element of $S$:
 * For $x=2$: $(2,2) \in R$
 * For $x=3$: $(3,3) \in R$
 Since all self-pairs are included, $R$ is reflexive.
-
 ### Irreflexive
 **Definition:** For every $x \in S$, $(x,x) \notin R$.
 **Example:**
@@ -67,7 +66,6 @@ Check each element:
 * For $x=2$: $(2,2) \notin R$
 * For $x=3$: $(3,3) \notin R$
 None of the self-pairs are included, so $R$ is irreflexive.
-
 ### Symmetric
 **Definition:** If $(x,y) \in R$, then $(y,x) \in R$.
 **Example:**
@@ -78,7 +76,6 @@ Check each pair:
 * $(2,3) \in R$. Is $(3,2) \in R$? Yes.
 * $(3,2) \in R$. Is $(2,3) \in R$? Yes.
 All pairs have their reverse, so $R$ is symmetric.
-
 ### Asymmetric
 **Definition:** If $(x,y) \in R$, then $(y,x) \notin R$.
 **Example:**
@@ -87,7 +84,6 @@ Check each pair:
 * $(1,2) \in R$. Is $(2,1) \in R$? No.
 * $(2,3) \in R$. Is $(3,2) \in R$? No.
 No pair has its reverse, so $R$ is asymmetric.
-
 ### Antisymmetric
 **Definition:** If $(x,y) \in R$ and $(y,x) \in R$, then $x=y$.
 **Example:**
@@ -98,7 +94,6 @@ Check pairs:
 * $(3,3)$ has reverse $(3,3)$. Since $3=3$, allowed.
 * $(1,2) \in R$. Is $(2,1) \in R$? No. So no violation.
 No violation, so $R$ is antisymmetric.
-
 ### Transitive
 **Definition:** If $(x,y) \in R$ and $(y,z) \in R$, then $(x,z) \in R$.
 **Example:**
@@ -107,12 +102,6 @@ Check chains:
 * $(1,2)$ and $(2,3)$ ⇒ need $(1,3)$. Yes, it is in $R$.
 * $(2,3)$ has no pair starting with 3, so nothing to check.
 * $(1,3)$ has no pair starting with 3, so nothing to check.
-
-
-
-Here’s a clear, combined explanation of the Pigeonhole Principle with a real example:
-
----
 
 ### Pigeonhole Principle
 **Basic Idea:**
