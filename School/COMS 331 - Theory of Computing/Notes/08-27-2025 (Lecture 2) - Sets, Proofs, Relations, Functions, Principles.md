@@ -130,3 +130,23 @@ A drawer contains 20 socks, each either black, white, or gray. What is the minim
 * **Boxes:** 3 colors
 * Use the general form: if you want at least 8 of the same color, assume the worst case where each color has 7 socks first.
 * Total socks in worst case: $7 + 7 + 7 = 21$ → one more sock (22nd) guarantees 8 of the same color.
+
+
+Here’s a concise explanation in plain text format:
+
+---
+
+**Proof by Contradiction**
+**Definition:** To prove a statement $P$ is true, assume the opposite ($\neg P$) is true. If this assumption leads to a logical contradiction, then $P$ must be true.
+**Steps:**
+1. Assume the statement you want to prove is false.
+2. Use logical reasoning to deduce consequences.
+3. Find a contradiction (something impossible or false).
+4. Conclude the original statement is true.
+**Example:** Prove $\sqrt{2}$ is irrational.
+* **Assume** $\sqrt{2}$ is rational. Then $\sqrt{2} = \frac{a}{b}$ where $a, b$ are integers with no common factors.
+* Square both sides: $2 = \frac{a^2}{b^2} \Rightarrow a^2 = 2b^2$.
+* So $a^2$ is even → $a$ is even → $a = 2k$.
+* Substitute: $(2k)^2 = 4k^2 = 2b^2 \Rightarrow b^2 = 2k^2$ → $b$ is even.
+* Both $a$ and $b$ are even → contradicts the assumption they have no common factors.
+* **Conclusion:** $\sqrt{2}$ is irrational.
