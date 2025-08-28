@@ -103,6 +103,7 @@ Check chains:
 * $(2,3)$ has no pair starting with 3, so nothing to check.
 * $(1,3)$ has no pair starting with 3, so nothing to check.
 
+
 ### Pigeonhole Principle
 **Basic Idea:**
 If you have more objects than boxes, at least one box must contain more than one object.
