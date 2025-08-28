@@ -132,10 +132,6 @@ A drawer contains 20 socks, each either black, white, or gray. What is the minim
 * Total socks in worst case: $7 + 7 + 7 = 21$ → one more sock (22nd) guarantees 8 of the same color.
 
 
-Here’s a concise explanation in plain text format:
-
----
-
 **Proof by Contradiction**
 **Definition:** To prove a statement $P$ is true, assume the opposite ($\neg P$) is true. If this assumption leads to a logical contradiction, then $P$ must be true.
 **Steps:**
